@@ -107,8 +107,8 @@ const handleQtyChange = (e) => {
        
 
   return (
-    <form onSubmit={handleSubmit}>
-      <Stack spacing={4}>
+    <form onSubmit={handleSubmit} >
+      <Stack spacing={2} >
         <FormControl id="qty">
           <FormLabel fontSize={"25px"}>Qty</FormLabel>
           <Input
@@ -116,7 +116,7 @@ const handleQtyChange = (e) => {
             value={qty}
             padding={"6"}
             borderRadius={"1vmax"}
-            height={["10%", "25px"]}
+            height={["10%", "20px"]}
             width={["100%", "400px"]}
             onChange={handleQtyChange}
           />
@@ -128,7 +128,7 @@ const handleQtyChange = (e) => {
             value={price}
             padding={"6"}
             borderRadius={"1vmax"}
-            height={["10%", "25px"]}
+            height={["10%", "20px"]}
             width={["100%", "400px"]}
             onChange={handlePriceChange}
           />
@@ -140,7 +140,7 @@ const handleQtyChange = (e) => {
             value={discountPercent}
             padding={"6"}
             borderRadius={"1vmax"}
-            height={["10%", "25px"]}
+            height={["10%", "20px"]}
             width={["100%", "400px"]}
             onChange={handleDiscountPercentChange}
           />
@@ -152,7 +152,7 @@ const handleQtyChange = (e) => {
             value={discount}
             padding={"6"}
             borderRadius={"1vmax"}
-            height={["10%", "25px"]}
+            height={["10%", "20px"]}
             width={["100%", "400px"]}
             onChange={handleDiscountChange}
           />
@@ -164,7 +164,7 @@ const handleQtyChange = (e) => {
             value={taxPercent}
             padding={"6"}
             borderRadius={"1vmax"}
-            height={["10%", "25px"]}
+            height={["10%", "20px"]}
             width={["100%", "400px"]}
             onChange={handleTaxPercentChange}
           />
@@ -175,7 +175,7 @@ const handleQtyChange = (e) => {
             type="number"
             padding={"6"}
             borderRadius={"1vmax"}
-            height={["10%", "25px"]}
+            height={["10%", "20px"]}
             width={["100%", "400px"]}
             value={tax}
             onChange={handleTaxChange}
@@ -188,7 +188,7 @@ const handleQtyChange = (e) => {
             padding={"6"}
             borderRadius={"1vmax"}
            
-            height={["10%", "25px"]}
+            height={["10%", "20px"]}
             width={["100%", "400px"]}
             value={totalPrice}
             readOnly

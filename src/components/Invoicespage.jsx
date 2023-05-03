@@ -14,8 +14,8 @@ const Invoicespage = ({onDelete}) => {
           variant="striped"
           colorScheme="teal"
           gap={2}
-          width={"100vw"}
-          height={"100vh"}
+          width={"90vw"}
+          height={"90vh"}
         >
           <Thead>
             <Tr>
