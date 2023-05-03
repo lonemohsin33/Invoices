@@ -31,7 +31,7 @@ const Invoicespage = ({onDelete}) => {
             </Tr>
           </Thead>
           <Tbody>
-            {invoices.map((invoice, index) => (
+            {invoices?.map((invoice, index) => (
               <Tr key={invoice.id}>
                 <Td>{index}</Td>
 
