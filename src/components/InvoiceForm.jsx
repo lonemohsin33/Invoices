@@ -110,7 +110,7 @@ const handleQtyChange = (e) => {
     <form onSubmit={handleSubmit} >
       <Stack spacing={2} >
         <FormControl id="qty">
-          <FormLabel fontSize={"25px"}>Qty</FormLabel>
+          <FormLabel fontSize={"15px"}>Qty</FormLabel>
           <Input
             type="number"
             value={qty}
@@ -122,7 +122,7 @@ const handleQtyChange = (e) => {
           />
         </FormControl>
         <FormControl id="price">
-          <FormLabel fontSize={"25px"}>Price</FormLabel>
+          <FormLabel fontSize={"15px"}>Price</FormLabel>
           <Input
             type="number"
             value={price}
@@ -134,7 +134,7 @@ const handleQtyChange = (e) => {
           />
         </FormControl>
         <FormControl id="discountPercent">
-          <FormLabel fontSize={"25px"}>Discount %</FormLabel>
+          <FormLabel fontSize={"15px"}>Discount %</FormLabel>
           <Input
             type="number"
             value={discountPercent}
@@ -146,7 +146,7 @@ const handleQtyChange = (e) => {
           />
         </FormControl>
         <FormControl id="discount">
-          <FormLabel fontSize={"25px"}>Discount</FormLabel>
+          <FormLabel fontSize={"15px"}>Discount</FormLabel>
           <Input
             type="number"
             value={discount}
@@ -158,7 +158,7 @@ const handleQtyChange = (e) => {
           />
         </FormControl>
         <FormControl id="taxPercent">
-          <FormLabel fontSize={"25px"}>Tax %</FormLabel>
+          <FormLabel fontSize={"15px"}>Tax %</FormLabel>
           <Input
             type="number"
             value={taxPercent}
@@ -170,7 +170,7 @@ const handleQtyChange = (e) => {
           />
         </FormControl>
         <FormControl id="tax">
-          <FormLabel fontSize={"25px"}>Tax</FormLabel>
+          <FormLabel fontSize={"15px"}>Tax</FormLabel>
           <Input
             type="number"
             padding={"6"}
@@ -182,7 +182,7 @@ const handleQtyChange = (e) => {
           />
         </FormControl>
         <FormControl id="totalPrice">
-          <FormLabel fontSize={"25px"}>Total Price</FormLabel>
+          <FormLabel fontSize={"15px"}>Total Price</FormLabel>
           <Input
             type="number"
             padding={"6"}

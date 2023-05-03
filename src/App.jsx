@@ -90,13 +90,13 @@ const handleEditInvoice = (id, field, value) => {
           path="/"
           element={
             <Box
-              width={"100vw"}
-              height={"100vh"}
+              width={"90vw"}
+              height={"90vh"}
               display={"flex"}
               flexDirection={"column"}
               alignItems={"center"}
             >
-              <Heading as="h1" size="lg" mb={4}>
+              <Heading as="h3" size="lg" mb={2}>
                 Invoicing Web App
               </Heading>
               <InvoiceForm onAddInvoice={handleAddInvoice} />
