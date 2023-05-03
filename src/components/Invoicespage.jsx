@@ -27,7 +27,7 @@ const Invoicespage = ({onDelete}) => {
               <Th>Tax %</Th>
               <Th>Tax</Th>
               <Th>Total Price</Th>
-              <Th>Action</Th>
+          
             </Tr>
           </Thead>
           <Tbody>
@@ -54,9 +54,7 @@ const Invoicespage = ({onDelete}) => {
                   <Input value={invoice.tax} readOnly />
                 </Td>
                 <Td>{invoice.totalPrice}</Td>
-                <Td>
-                  <Button onClick={() => onDelete(invoice.id)}>Delete</Button>
-                </Td>
+               
               </Tr>
             ))}
           </Tbody>
